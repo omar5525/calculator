@@ -1,0 +1,16 @@
+.container{padding: 70px 0;
+text-align: center;
+justify-content:center;}
+
+
+table{height: 480px;
+  width: 50%;
+background-color: powderblue;}
+
+input[type=button]{border: 2px solid black;
+	               padding:20px 20px;
+                   font-size:35px;
+				   margin:5px 1px;}
+
+input[type=text] {
+                  font-size: 36px;}
