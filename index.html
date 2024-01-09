@@ -12,14 +12,14 @@
  
  
 <body class="bg-secondary">
-<div class="container">
-<h2> Calculator </h2>
-  <div class="center">
+<div class="container" style="padding:10px;">
+<h2 class="text-center"> Calculator </h2>
+  <div class="container  d-flex justify-content-center" style=" margin:auto;">
    <table border="0">
    <tr class="row">
   
-  <td class="col-10"> <input type="text" id="result"> </td>
-   <td class="col-2"><input type="button" value="c" style="padding:1px 15px; margin-top:0;" onclick="cler()"></td>
+  <td class="col-9"> <input type="text"  id="result"> </td>
+   <td class="col-3"><input type="button" value="c"  onclick="cler()"></td>
  
    </tr>
    <tr class="row">
@@ -42,15 +42,15 @@
    </tr>
    <tr class="row">
    <td class="col-3 "><input type="button" value="0" onclick="display('0')"></td>
-   <td class="col-3 "><input type="button" value="00" style="padding:20% 12%;" onclick="display('00')"></td>
-    <td class="col-3"><input type="button" value="." style="padding:20% 30%;" onclick="back(.)"></td>
+   <td class="col-3 "><input type="button" value="00" onclick="display('00')"></td>
+    <td class="col-3"><input type="button" value="."  onclick="display('.')"></td>
    
    <td class="col-3"><input type="button" value="+" onclick="display('+')"></td>
    </tr>
    <tr class="row">
-       <td class="col-6"><input type="button" style="padding:15px 48%;" value="=" onclick="evals()"></td>
-	   <td class="col-3"><input type="button" value="&#8592;"  style="padding:20% 30%;" onclick="back()"></td>
-	   <td class="col-3"><input type="button" value="sqft" style="padding:15px 15% 20%; margin:5px 0%;" onclick="sqft()"></td>
+       <td class="col-6"><input type="button"  value="=" onclick="evals()"></td>
+	   <td class="col-3"><input type="button" value="&#8592;"  onclick="back()"></td>
+	   <td class="col-3"><input type="button" value="SQFT" style="padding:20px 1px;" onclick="sqft()"></td>
     </tr>	   
    </table>
    </div>
